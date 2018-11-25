@@ -23,6 +23,7 @@ for ($i = 0; $i < count($paginas); $i++) {
  * @param type $destino
  */
 function copiar($web, $destino) {
+    // codigo extraido de https://www.lawebdelprogramador.com/codigo/PHP/2294-descargar-una-pagina-web-mediante-CURL-en-PHP.html
 //abrimos un fichero donde guardar la descarga de la web
     $fp = fopen("$destino", "w");
 // Se crea un manejador CURL
